@@ -14,9 +14,9 @@ h1 {
   font-weight: bold;
 }
 
-a {
+.header a {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
   color: white;
 }
 
@@ -37,4 +37,22 @@ h3 {
 h4 {
   font-size: 14px;
   font-weight: normal;
+}
+
+.designed h3 {
+  color: white;
+  font-weight: bold;
+  background: url('../../images/the-flatiron-building.png');
+}
+
+.footer {
+  font-size: 11px;
+  color: white;
+  font-weight: normal;
+  background-color: dimgray;
+}
+
+.footer a {
+  font-size: 14px;
+  color: white;
 }
